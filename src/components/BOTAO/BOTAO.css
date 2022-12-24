@@ -5,5 +5,24 @@
 }
 
 button {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    background: linear-gradient(150deg, gray, rgba(0, 0, 0, 0.534) 25%);
+    border: 1px solid rgb(26, 26, 26);
+}
+
+button::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 35px;
+    width: 35px;
 }

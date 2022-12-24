@@ -7,7 +7,9 @@ const IPHONE = () => {
         <main>
             <header>
                 <div className="containerHeader">
-                    <p className="camera"></p>
+                    <p className="camera">
+                        <p className="cameraReflexo"></p>
+                    </p>
                     <p className="saidaAudio"></p>
                 </div>
             </header>
