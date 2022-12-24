@@ -1,10 +1,20 @@
 import React from "react";
-import "./IPHONE.CSS";
+import BOTAO from "../BOTAO";
+import "./IPHONE.css";
 
 const IPHONE = () => {
     return (
         <main>
-            <header></header>
+            <header>
+                <div className="containerHeader">
+                    <p className="camera"></p>
+                    <p className="saidaAudio"></p>
+                </div>
+            </header>
+            <section></section>
+            <footer>
+                <BOTAO type="button" />
+            </footer>
         </main>
     )
 

@@ -1,0 +1,70 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 550px;
+    width: 280px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+main header {
+    border-bottom: 1px solid;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main header .containerHeader {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 160px;
+    height: 20px;
+}
+
+.containerHeader .camera {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+}
+
+.containerHeader .camera::before {
+    content: "";
+    position: absolute;
+    transform: translate(50%, 50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.containerHeader .saidaAudio {
+    width: 100px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 24px;
+}
+
+main section {
+    width: 95%;
+    
+    border: 1px solid;
+    height: 430px;
+}
+
+main footer {
+    height: 60px;
+    width: 100%;
+}
