@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-main {
+.containerPhone {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@ main {
     background-color: #000;
 }
 
-main header {
+.containerPhone header {
     border-bottom: 1px solid;
     height: 60px;
     display: flex;
@@ -25,7 +25,7 @@ main header {
     align-items: center;
     
 }
-main header .containerHeader {
+.containerPhone header .containerHeader {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -88,7 +88,7 @@ main header .containerHeader {
     
 }
 
-main section {
+.containerPhone .telas {
     width: 95%;
     background-color: #0f0;
     border: 1px solid;
@@ -96,7 +96,7 @@ main section {
     overflow: hidden;
 }
 
-main footer {
+.containerPhone footer {
     height: 60px;
     width: 100%;
     display: flex;

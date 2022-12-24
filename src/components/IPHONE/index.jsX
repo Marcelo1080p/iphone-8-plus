@@ -5,16 +5,16 @@ import "./IPHONE.css";
 
 const IPHONE = () => {
     return (
-        <main>
+        <main className="containerPhone">
             <header>
                 <div className="containerHeader">
                     <p className="camera">
-                        <p className="cameraReflexo"></p>
+                        <span className="cameraReflexo"></span>
                     </p>
                     <p className="saidaAudio"></p>
                 </div>
             </header>
-            <section>
+            <section className="telas">
                 <TELABLOQUEIO/>
             </section>
             <footer>

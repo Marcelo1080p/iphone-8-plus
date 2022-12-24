@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerDetails {
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+.containerDetails .sinais {
+    border: 1px solid;
+    width: 10%;
+}
