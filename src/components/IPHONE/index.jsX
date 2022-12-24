@@ -1,4 +1,5 @@
 import React from "react";
+import TELABLOQUEIO from "../../Pages/TelaBloqueio";
 import BOTAO from "../BOTAO";
 import "./IPHONE.css";
 
@@ -13,7 +14,9 @@ const IPHONE = () => {
                     <p className="saidaAudio"></p>
                 </div>
             </header>
-            <section></section>
+            <section>
+                <TELABLOQUEIO/>
+            </section>
             <footer>
                 <BOTAO type="button" />
             </footer>

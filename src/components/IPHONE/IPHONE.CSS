@@ -93,6 +93,7 @@ main section {
     background-color: #0f0;
     border: 1px solid;
     height: 430px;
+    overflow: hidden;
 }
 
 main footer {
