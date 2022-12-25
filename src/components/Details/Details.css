@@ -6,10 +6,62 @@
 
 .containerDetails {
     width: 100%;
+    height: 20px;
     border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
 }
 
 .containerDetails .sinais {
-    border: 1px solid;
-    width: 10%;
+    border: 1px solid #E75590;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: flex-center;
+    justify-content: space-around;
 }
+
+.sinais .sinalTim {
+    display: flex;
+    gap: 1px;
+    padding: 0px 3px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 25px;
+    height: 15px;
+}
+
+.sinalTim #div1, #div2, #div3, #div4 {
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.sinais .sinalTim #div1 {
+    width: 2.1px;
+    height: 3px;
+}
+
+.sinais .sinalTim #div2 {
+    width: 2px;
+    height: 4.5px;
+}
+
+.sinais .sinalTim #div3 {
+    width: 2px;
+    height: 5.7px;
+}
+
+.sinais .sinalTim #div4 {
+    width: 2px;
+    height: 6.9px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+.sinais .tim {
+    position: relative;
+    color: #fff;
+    font-size: 0.6rem;
+    left: -10px;
+    top: 5.5px;
+}
+
