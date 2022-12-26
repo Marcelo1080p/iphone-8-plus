@@ -13,15 +13,19 @@ const DETAILS = () => {
                 </p>
                 <p className="tim">TIM</p>
                 <div className="wifi">
-                        <div className="wifi1"></div>
+                    <div className="wifi1"></div>
+                    <div className="wifi2"></div>
+                    <div className="circulo"></div>
                 </div>
             </span>
             <span className="bloqueio">
-                <span className="cadeado"></span>
+                <span className="cadeado">
+
+                </span>
             </span>
             <span className="infoBateria">
                 <span>97%</span>
-                <span className="bateria"></span>
+                <p className="bateria"></p>
             </span>
         </section>
     );
