@@ -3,7 +3,7 @@ import TELABLOQUEIO from "../../Pages/TelaBloqueio";
 import BOTAO from "../BOTAO";
 import "./IPHONE.css";
 
-const IPHONE = () => {
+const Iphone = (props) => {
     return (
         <main className="containerPhone">
             <header>
@@ -15,7 +15,7 @@ const IPHONE = () => {
                 </div>
             </header>
             <section className="telas">
-                <TELABLOQUEIO/>
+                {props.children}
             </section>
             <footer>
                 <BOTAO type="button" />
@@ -25,4 +25,4 @@ const IPHONE = () => {
 
 };
 
-export default IPHONE;
+export default Iphone;

@@ -5,12 +5,12 @@ const DETAILS = () => {
     return (
         <section className="containerDetails">
             <span className="sinais">
-                <p className="sinalTim">
+                <div className="sinalTim">
                     <div id="div1"></div>
                     <div id="div2"></div>
                     <div id="div3"></div>
                     <div id="div4"></div>
-                </p>
+                </div>
                 <p className="tim">TIM</p>
                 <div className="wifi">
                     <div className="wifi1"></div>

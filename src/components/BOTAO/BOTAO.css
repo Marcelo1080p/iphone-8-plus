@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-button {
+.botao {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ button {
     border: 1px solid rgb(26, 26, 26);
 }
 
-button::after {
+.botao::after {
     content: "";
     position: absolute;
     border-radius: 50%;
