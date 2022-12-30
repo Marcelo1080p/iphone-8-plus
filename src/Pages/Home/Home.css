@@ -1,4 +1,8 @@
-#home {
+#containerHome {
     color: #FFF;
+    height: 427px;
     font-size: 3rem;
+    background-image: url("./../../imgs/explosao2.png");
+    background-position: center;
+    background-size: cover;
 }

@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Cadeado from "../../components/Cadeado";
 import Datas from "../../components/Datas";
 import DETAILS from "../../components/Details";
 import Horas from "../../components/Horas";
 import "./TELABLOQUEIO.css";
 
-const TELABLOQUEIO = () => {
-
-    
+const TELABLOQUEIO = (props) => {
 
     return (
         <section className="containerBloqueio">
-            <DETAILS/>
+            <DETAILS
+                hoor={<Cadeado/>}
+            />
             <section className="datasHoras">
                 <Datas/>
                 <Horas/>

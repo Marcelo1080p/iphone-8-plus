@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import DETAILS from "../../components/Details";
+import Horas from "../../components/Horas";
 import "./Home.css";
 
-const Home = () => {
+const Home = (props) => {
     return (
-        <div id="home">Funfou
-        <Link to="/">
-
-            <button>Home</button>
-        </Link>
+        <div id="containerHome">
+            <DETAILS 
+                hoor={<Horas fontSize="0.6rem"/>}
+            />
         </div>
     );
 };

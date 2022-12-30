@@ -1,7 +1,9 @@
 import React from "react";
 import "./Details.css"
 
-const DETAILS = () => {
+const DETAILS = (props) => {
+   
+
     return (
         <section className="containerDetails">
             <span className="sinais">
@@ -18,11 +20,8 @@ const DETAILS = () => {
                     <div className="circulo"></div>
                 </div>
             </span>
-            <span className="bloqueio">
-                <span className="cadeado">
-
-                </span>
-            </span>
+            {props.hoor}
+            
             <span className="infoBateria">
                 <span>97%</span>
                 <p className="bateria"></p>

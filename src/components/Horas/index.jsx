@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Horas.css";
 
-const Horas = () => {
+const Horas = (props) => {
   const[relog, setRelog] = useState('')
   setInterval(function relogio() {
     let date = new Date();
@@ -16,7 +16,11 @@ const Horas = () => {
 
   return (
     <div className="cotainerHor">
-      <div id="horas">{relog}</div>
+      <div
+       id="horas"
+       style={{fontSize: props.fontSize, marginTop: '3px'}}>
+        {relog}
+      </div>
       
     </div>
   );

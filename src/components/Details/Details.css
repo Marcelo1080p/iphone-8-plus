@@ -124,57 +124,6 @@
     }
 }
 
-
-.bloqueio {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 50px;
-}
-
-.bloqueio::after {
-    content: "";
-    position: absolute;
-    background-color: #FFF;
-    width: 5px;
-    height: 3.8px;
-    z-index: 2;
-}
-
-.bloqueio .cadeado {
-    position: absolute;
-    top: 8px;
-    background-color: #FFF;
-    width: 5px;
-    height: 4px;
-    z-index: 1;
-}
-
-.bloqueio .cadeado::after {
-    position: absolute;
-    content: "";
-    border-radius: 50%;
-    top: -4px;
-    left: 0.3px;
-    width: 4.5px;
-    height: 8px;
-    background-color: #FFF;
-}
-
-.bloqueio .cadeado::before {
-    position: absolute;
-    content: "";
-    border-radius: 50%;
-    top: -3px;
-    left: 0.99px;
-    width: 3.2px;
-    height: 5px;
-    background-color: #000;
-    z-index: 1;
-}
-
 .infoBateria {
     padding: 0 0.3rem;
     display: flex;
